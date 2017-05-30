@@ -1,0 +1,37 @@
+
+/*For Service Logos:*/
+/*
+.thumbnail {
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+*/
+
+/*style json pane;*/
+.json-string {
+  color: #f45c42
+}
+
+.json-key {
+  color: #666768;
+}
+
+/*Clear button highlight*/
+button:focus {outline:0;}
+
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
+/*customize panel header*/
+div.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}

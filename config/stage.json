@@ -1,0 +1,8 @@
+{
+  "port": 3000,
+  "dbHost": "localhost",
+  "dbName": "aws2",
+  "dbPassword": "Password1",
+  "dbUser":"root",
+  "host": "localhost"
+}

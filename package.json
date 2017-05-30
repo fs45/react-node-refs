@@ -1,0 +1,48 @@
+{
+  "name": "awspolicyadvisorapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "export NODE_ENV=development && node server.js",
+    "testRoutes": "mocha tests/routes-spec.js",
+    "devClient": "webpack -d --watch",
+    "buildClient": "webpack -p",
+    "buildServer": "export NODE_ENV=production && node server.js",
+    "createDbDevelopment": "mysql -u root < tests/db.sql",
+    "createDbStaging": "mysql -u root -pPassword1 < tests/db.sql",
+    "loadDbStaging": "export NODE_ENV=stage && node utils/dbLoader.js",
+    "setStagingEnv": "export NODE_ENV=stage",
+    "startStage": "export NODE_ENV=stage && node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "config": "^1.25.1",
+    "expres": "0.0.5",
+    "express": "^4.15.2",
+    "knex": "^0.12.9",
+    "mysql": "^2.13.0",
+    "react": "^15.5.3",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.5.3",
+    "react-json-pretty": "^1.5.0",
+    "react-router-dom": "^4.1.1",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "bluebird": "^3.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0",
+    "webpack": "^2.6.1"
+  },
+  "author": "Efe Surekli",
+  "license": "ISC"
+}

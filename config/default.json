@@ -1,0 +1,8 @@
+{
+  "port": 3000,
+  "dbHost": "aws-security.cnso1miyohcw.us-east-1.rds.amazonaws.com",
+  "dbName": "awsv10",
+  "dbPassword": "fPF3bhSXNClauA==",
+  "dbUser":"effe",
+  "host":"localhost"
+}
