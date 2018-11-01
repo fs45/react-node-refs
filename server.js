@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const config = require('config');
 const bodyParser = require('body-parser');
+const CoinMarketCap = require('node-coinmarketcap-rest-api');
 
 const app = express();
 const router = express.Router();
